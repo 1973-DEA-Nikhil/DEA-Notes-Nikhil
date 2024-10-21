@@ -1,0 +1,553 @@
+# Project Structure
+
+- **.git/**
+  - [COMMIT_EDITMSG](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\COMMIT_EDITMSG)
+  - [FETCH_HEAD](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\FETCH_HEAD)
+  - [HEAD](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\HEAD)
+  - [ORIG_HEAD](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\ORIG_HEAD)
+  - [config](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\config)
+  - [description](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\description)
+  - **hooks/**
+    - [applypatch-msg.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\applypatch-msg.sample)
+    - [commit-msg.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\commit-msg.sample)
+    - [fsmonitor-watchman.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\fsmonitor-watchman.sample)
+    - [post-update.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\post-update.sample)
+    - [pre-applypatch.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\pre-applypatch.sample)
+    - [pre-commit.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\pre-commit.sample)
+    - [pre-merge-commit.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\pre-merge-commit.sample)
+    - [pre-push.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\pre-push.sample)
+    - [pre-rebase.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\pre-rebase.sample)
+    - [pre-receive.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\pre-receive.sample)
+    - [prepare-commit-msg.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\prepare-commit-msg.sample)
+    - [push-to-checkout.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\push-to-checkout.sample)
+    - [sendemail-validate.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\sendemail-validate.sample)
+    - [update.sample](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\hooks\update.sample)
+  - [index](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\index)
+  - **info/**
+    - [exclude](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\info\exclude)
+  - **logs/**
+    - [HEAD](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\logs\HEAD)
+    - **refs/**
+      - **heads/**
+        - [main](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\logs\refs\heads\main)
+      - **remotes/**
+        - **origin/**
+          - [main](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\logs\refs\remotes\origin\main)
+  - **objects/**
+    - **00/**
+      - [ff2c4363f7d3c3fad52991d4810a805788539b](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\00\ff2c4363f7d3c3fad52991d4810a805788539b)
+    - **04/**
+      - [398fa968552c1dd5c1c9b8e6e04cf464cd73b8](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\04\398fa968552c1dd5c1c9b8e6e04cf464cd73b8)
+      - [be0c72468c31e0bc4432499d6a1514e7c6108d](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\04\be0c72468c31e0bc4432499d6a1514e7c6108d)
+    - **05/**
+      - [22d6bb7d031949e6a7bee750aa3f7db864d28c](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\05\22d6bb7d031949e6a7bee750aa3f7db864d28c)
+      - [a7e1980da7eaebef2b7bb4a98c2a964119e95d](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\05\a7e1980da7eaebef2b7bb4a98c2a964119e95d)
+    - **06/**
+      - [2ccdbcfdfbbb73c8feeed4d59ce9b1a6b5f4f5](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\06\2ccdbcfdfbbb73c8feeed4d59ce9b1a6b5f4f5)
+      - [62937b0f18507b49e0b951e3c067a20130cf7f](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\06\62937b0f18507b49e0b951e3c067a20130cf7f)
+    - **08/**
+      - [7692baee989dc6fc4aa5d3e6236e43f688c57b](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\08\7692baee989dc6fc4aa5d3e6236e43f688c57b)
+    - **09/**
+      - [bf6e72b9c1933b8beb86414cf57d9e5ab30b4a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\09\bf6e72b9c1933b8beb86414cf57d9e5ab30b4a)
+    - **0b/**
+      - [55c0e74ee1db53cac957873aeb2ff90b5d6929](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\0b\55c0e74ee1db53cac957873aeb2ff90b5d6929)
+    - **0c/**
+      - [e044fd2d0e15ea121d2cfa51a4ed46d019734b](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\0c\e044fd2d0e15ea121d2cfa51a4ed46d019734b)
+    - **0d/**
+      - [3c02bbdf64f4357098a88c1237cdfc5264e05d](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\0d\3c02bbdf64f4357098a88c1237cdfc5264e05d)
+    - **0f/**
+      - [e1a775825b6cc3d045beaccc4394b607a8c5b7](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\0f\e1a775825b6cc3d045beaccc4394b607a8c5b7)
+    - **11/**
+      - [68633da1db3fe959cb5841885bc59fb24f774a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\11\68633da1db3fe959cb5841885bc59fb24f774a)
+    - **16/**
+      - [7808601b799b4daed0af8b81f1d3ec35fdb262](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\16\7808601b799b4daed0af8b81f1d3ec35fdb262)
+    - **17/**
+      - [cc61735676aec158ce1e61c01b1222b2270b1e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\17\cc61735676aec158ce1e61c01b1222b2270b1e)
+      - [d0223a483919f56508d3e28b10f6491cc0e875](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\17\d0223a483919f56508d3e28b10f6491cc0e875)
+    - **18/**
+      - [2d09cfbf515d8fffee8afadeb8f59422ae957e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\18\2d09cfbf515d8fffee8afadeb8f59422ae957e)
+      - [820f4a931253baf0e03aac57740a7fdba38ed9](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\18\820f4a931253baf0e03aac57740a7fdba38ed9)
+    - **19/**
+      - [ba4b606063ef0c97be7fb066e941d5e535a662](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\19\ba4b606063ef0c97be7fb066e941d5e535a662)
+      - [dd528ee98e2e50c7055110e0fcd7810ac5de26](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\19\dd528ee98e2e50c7055110e0fcd7810ac5de26)
+      - [fa77969e676ee4bc3e2a16ff0933e6aff43cd4](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\19\fa77969e676ee4bc3e2a16ff0933e6aff43cd4)
+    - **1a/**
+      - [54a625aa2fa04a2941b6f454ce027b145c8e60](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\1a\54a625aa2fa04a2941b6f454ce027b145c8e60)
+      - [754b54007fcce014204bece7a3337030a402d1](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\1a\754b54007fcce014204bece7a3337030a402d1)
+    - **1b/**
+      - [b836badc5b0645a5de13e0852408eb37496aa8](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\1b\b836badc5b0645a5de13e0852408eb37496aa8)
+    - **1d/**
+      - [1edf0b40a2542e3bb0738631dddfb389791170](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\1d\1edf0b40a2542e3bb0738631dddfb389791170)
+    - **1e/**
+      - [cbd2b5e2757c9c9153cda90aaaef1b69ff8f55](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\1e\cbd2b5e2757c9c9153cda90aaaef1b69ff8f55)
+    - **20/**
+      - [66845621206ab1154613dd1d9756c7ac7b2163](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\20\66845621206ab1154613dd1d9756c7ac7b2163)
+    - **21/**
+      - [8ffe7aa655dd97a3b18b512d0ff30cba5245bd](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\21\8ffe7aa655dd97a3b18b512d0ff30cba5245bd)
+      - [aca8784dc02381d0daac3b1fbcd75583fe9aa9](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\21\aca8784dc02381d0daac3b1fbcd75583fe9aa9)
+    - **22/**
+      - [5146bf217667e2078579e38700ef27454ec5aa](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\22\5146bf217667e2078579e38700ef27454ec5aa)
+    - **23/**
+      - [9a384da25982a8f5d55bdd7eb6442ed81e40d6](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\23\9a384da25982a8f5d55bdd7eb6442ed81e40d6)
+    - **24/**
+      - [682d1f860f3f16fe5b560c208c92ac49055573](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\24\682d1f860f3f16fe5b560c208c92ac49055573)
+    - **25/**
+      - [76b701352c2ca0449fc67a6af7727342227a66](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\25\76b701352c2ca0449fc67a6af7727342227a66)
+    - **27/**
+      - [0022313681efefa2b756353d4212073f7d29ab](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\27\0022313681efefa2b756353d4212073f7d29ab)
+      - [4078120e8bb61ffcd05dc679b0e09ffa044a3e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\27\4078120e8bb61ffcd05dc679b0e09ffa044a3e)
+    - **28/**
+      - [add6630ad5977ebe3f295661207c99320f7230](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\28\add6630ad5977ebe3f295661207c99320f7230)
+    - **2c/**
+      - [542397c0a5590e91ed90c5af189f8892878bd2](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\2c\542397c0a5590e91ed90c5af189f8892878bd2)
+    - **2e/**
+      - [6ffe1787fcbfc4f072a24e56b85693a893063e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\2e\6ffe1787fcbfc4f072a24e56b85693a893063e)
+      - [e563ac2f9dd77dc43365229aaf35080cf7eb37](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\2e\e563ac2f9dd77dc43365229aaf35080cf7eb37)
+      - [f4f2ae2f16f874528cd081a93e4080a72a0176](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\2e\f4f2ae2f16f874528cd081a93e4080a72a0176)
+    - **2f/**
+      - [60549e2bc6b072799e40c5748484f676ffa4ab](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\2f\60549e2bc6b072799e40c5748484f676ffa4ab)
+    - **30/**
+      - [689ba582ab3fe1c4d4d92244f51e3675896072](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\30\689ba582ab3fe1c4d4d92244f51e3675896072)
+      - [70a47cfbd0a9d540980d180e51a541fc70b054](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\30\70a47cfbd0a9d540980d180e51a541fc70b054)
+    - **37/**
+      - [8264ca41156f3af49ad5bd5e6623b85103ac87](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\37\8264ca41156f3af49ad5bd5e6623b85103ac87)
+      - [bcbcd06627eb17697b6c208b8aca1cb2cf05d6](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\37\bcbcd06627eb17697b6c208b8aca1cb2cf05d6)
+    - **38/**
+      - [88fa843e99c649dee194329087b430823e468a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\38\88fa843e99c649dee194329087b430823e468a)
+      - [e0d8a69533cb0d16b7c80f91ee3b603957f301](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\38\e0d8a69533cb0d16b7c80f91ee3b603957f301)
+    - **3a/**
+      - [ee89ee5bb41cd04d9887d7c8ef64dbf3d22417](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\3a\ee89ee5bb41cd04d9887d7c8ef64dbf3d22417)
+    - **3c/**
+      - [571d5eb696e1347b81d357fc3b7485ef4591ce](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\3c\571d5eb696e1347b81d357fc3b7485ef4591ce)
+    - **3d/**
+      - [c080b3a150729ea3ae06ffbe2c488cb6554bcb](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\3d\c080b3a150729ea3ae06ffbe2c488cb6554bcb)
+      - [ccff0e9e1613abef132e81bb45004765ea782b](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\3d\ccff0e9e1613abef132e81bb45004765ea782b)
+    - **40/**
+      - [95ac319a6e84b012f1a738247709a9b10228f6](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\40\95ac319a6e84b012f1a738247709a9b10228f6)
+      - [f6edc57cb80b6648124978ad31774f964c6e0a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\40\f6edc57cb80b6648124978ad31774f964c6e0a)
+    - **41/**
+      - [642911793b612d53eb9c02a6947e43e14e89c0](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\41\642911793b612d53eb9c02a6947e43e14e89c0)
+    - **42/**
+      - [b334e52706c1ef13540bfd93e8f2c4821e3fa6](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\42\b334e52706c1ef13540bfd93e8f2c4821e3fa6)
+    - **45/**
+      - [9d6a39dc2b20c7e768ac081cc59029f7a70aba](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\45\9d6a39dc2b20c7e768ac081cc59029f7a70aba)
+    - **47/**
+      - [acea0d032afcebdb815ccc60a88f1d81c6590c](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\47\acea0d032afcebdb815ccc60a88f1d81c6590c)
+    - **48/**
+      - [3a5c1c5a471ac89ff9a204e3a4205c7e318d77](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\48\3a5c1c5a471ac89ff9a204e3a4205c7e318d77)
+      - [5ad48ca15549b24f2b3dfac1c35c8f9068deb0](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\48\5ad48ca15549b24f2b3dfac1c35c8f9068deb0)
+      - [c57cfc7b9c465f5d43269d7758d3718e7428f2](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\48\c57cfc7b9c465f5d43269d7758d3718e7428f2)
+    - **4c/**
+      - [3775c9d94bf53736105b88b0395b548ff751cd](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\4c\3775c9d94bf53736105b88b0395b548ff751cd)
+    - **52/**
+      - [08b6827b78f6493acc7bca5d6bc418021dc3b6](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\52\08b6827b78f6493acc7bca5d6bc418021dc3b6)
+    - **56/**
+      - [f4b6c3fc46f49a6910f8728173874bba464329](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\56\f4b6c3fc46f49a6910f8728173874bba464329)
+    - **57/**
+      - [f31f8c2f94bde324f31bc0a0b690dd9f642b7c](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\57\f31f8c2f94bde324f31bc0a0b690dd9f642b7c)
+    - **59/**
+      - [dd5cc30ec2666596333eae1d5b72066d3821f0](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\59\dd5cc30ec2666596333eae1d5b72066d3821f0)
+    - **5a/**
+      - [52c7a27683f14d531790f30f22451ad93f6d21](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\5a\52c7a27683f14d531790f30f22451ad93f6d21)
+    - **5b/**
+      - [22caa0693c3c228df77c41097b1a68a314357c](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\5b\22caa0693c3c228df77c41097b1a68a314357c)
+      - [ad5e4e4841affee9a045a8b8d9e9d4291813ef](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\5b\ad5e4e4841affee9a045a8b8d9e9d4291813ef)
+    - **5e/**
+      - [d985152656c163f071946db8b63c4be4163f6a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\5e\d985152656c163f071946db8b63c4be4163f6a)
+    - **5f/**
+      - [8548e2b2a528a0d358b14ef4bfb8dbe095a21a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\5f\8548e2b2a528a0d358b14ef4bfb8dbe095a21a)
+      - [b592f0a71300389e59906c30f0ab99560e812b](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\5f\b592f0a71300389e59906c30f0ab99560e812b)
+    - **60/**
+      - [3067affa3552b8996dcd8f74f2c9d9a92c48b9](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\60\3067affa3552b8996dcd8f74f2c9d9a92c48b9)
+      - [c93ac519dbe0deea0518a379a127d4ed536137](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\60\c93ac519dbe0deea0518a379a127d4ed536137)
+    - **63/**
+      - [8889c255be25a8d63438c43f75110c710520d8](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\63\8889c255be25a8d63438c43f75110c710520d8)
+    - **65/**
+      - [e0ea66e02333c7ccce50b86c6ebeac4e442261](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\65\e0ea66e02333c7ccce50b86c6ebeac4e442261)
+    - **66/**
+      - [33df2bc2c5b00eae5b610b8bb12fbbeb2ec239](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\66\33df2bc2c5b00eae5b610b8bb12fbbeb2ec239)
+    - **68/**
+      - [d0c82689b461a06a5b0485d3b33d05c0cf4695](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\68\d0c82689b461a06a5b0485d3b33d05c0cf4695)
+    - **69/**
+      - [04e949d39aec10d0800b6579a37a8f776dacea](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\69\04e949d39aec10d0800b6579a37a8f776dacea)
+    - **6a/**
+      - [e3327b722ba0c206a206ceffe470fbda718dce](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\6a\e3327b722ba0c206a206ceffe470fbda718dce)
+    - **6c/**
+      - [763dda2e65317f6b76f7b2ae23466da0a05222](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\6c\763dda2e65317f6b76f7b2ae23466da0a05222)
+    - **6e/**
+      - [ccccf1d5ed1b63c96f1fd53da02d8e255fcbac](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\6e\ccccf1d5ed1b63c96f1fd53da02d8e255fcbac)
+    - **76/**
+      - [513eb263fa5cb89c5c147af1c7753413d6ab59](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\76\513eb263fa5cb89c5c147af1c7753413d6ab59)
+      - [b76f080ce1ba88f098c4a7ac5ac3e1b1dfeeac](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\76\b76f080ce1ba88f098c4a7ac5ac3e1b1dfeeac)
+    - **77/**
+      - [507854127210b16fbf01e385d2e6e3aae61223](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\77\507854127210b16fbf01e385d2e6e3aae61223)
+      - [a554d4f2f2ca1b6f35b6c593f1574d55c4eaad](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\77\a554d4f2f2ca1b6f35b6c593f1574d55c4eaad)
+      - [b1236ebb9087bdb792a8b06db063e8678453b4](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\77\b1236ebb9087bdb792a8b06db063e8678453b4)
+    - **79/**
+      - [105e0d6eaffcd68de0f2f98c8b608c01aea6e6](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\79\105e0d6eaffcd68de0f2f98c8b608c01aea6e6)
+    - **7c/**
+      - [2307683e4946f4df40ebef6d55c980cd6508b7](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\7c\2307683e4946f4df40ebef6d55c980cd6508b7)
+    - **7e/**
+      - [2355dfdd9528c9e7248795193302a772878dd5](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\7e\2355dfdd9528c9e7248795193302a772878dd5)
+    - **84/**
+      - [011fadc55bc4181d8b5ab8d641c30283c74b56](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\84\011fadc55bc4181d8b5ab8d641c30283c74b56)
+    - **86/**
+      - [1c9688341f1a538e31a167e6105151cd331252](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\86\1c9688341f1a538e31a167e6105151cd331252)
+      - [49707b3c23c4ca4bdbf88456a1d45fab7abd15](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\86\49707b3c23c4ca4bdbf88456a1d45fab7abd15)
+    - **87/**
+      - [21ccb15107d5dd96daf197e21c44c1f999ef6d](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\87\21ccb15107d5dd96daf197e21c44c1f999ef6d)
+      - [70ad19d40b5f68102dd1490e9ae3d024daef1c](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\87\70ad19d40b5f68102dd1490e9ae3d024daef1c)
+      - [8907731b6309a933ab35bb5d16b938e9998a68](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\87\8907731b6309a933ab35bb5d16b938e9998a68)
+      - [c919d6ba02f8e55ec88e6307491b39ca98449e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\87\c919d6ba02f8e55ec88e6307491b39ca98449e)
+    - **88/**
+      - [f5a859e1236ff015947fa89992cf055d879752](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\88\f5a859e1236ff015947fa89992cf055d879752)
+    - **8b/**
+      - [2f33294289c9fd26aeb01b59c872d9c533ad3d](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\8b\2f33294289c9fd26aeb01b59c872d9c533ad3d)
+    - **8c/**
+      - [8380fe4e4ad30516ebaa409cba43176c0ab474](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\8c\8380fe4e4ad30516ebaa409cba43176c0ab474)
+      - [f0da5a974fcd90454c4cea05025be3ecf4844e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\8c\f0da5a974fcd90454c4cea05025be3ecf4844e)
+    - **8d/**
+      - [2f1c853258a0f7a6a0d69da8ebb0ec8869e3cd](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\8d\2f1c853258a0f7a6a0d69da8ebb0ec8869e3cd)
+      - [bf15dfa69fd3d08c32912f2fed06bd0de40da5](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\8d\bf15dfa69fd3d08c32912f2fed06bd0de40da5)
+    - **8e/**
+      - [d79b42a1ded0b5f5e5be574a1d8b20c8df71e7](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\8e\d79b42a1ded0b5f5e5be574a1d8b20c8df71e7)
+    - **8f/**
+      - [6137cdc7bec81a82eb297d068b8d2fd1de5bd5](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\8f\6137cdc7bec81a82eb297d068b8d2fd1de5bd5)
+    - **91/**
+      - [1cc632e7a5a18dc0de8fc05617953282212682](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\91\1cc632e7a5a18dc0de8fc05617953282212682)
+    - **92/**
+      - [421269d60737d77036b952689d042235d84c5a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\92\421269d60737d77036b952689d042235d84c5a)
+    - **93/**
+      - [7afdc985ea3a64c236f4bbe84e05a278d400aa](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\93\7afdc985ea3a64c236f4bbe84e05a278d400aa)
+    - **94/**
+      - [65a65fbd163f0ad9815df582cef7629e02c026](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\94\65a65fbd163f0ad9815df582cef7629e02c026)
+      - [d212a1bcd28a69baeda4e6390a699e78d45d66](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\94\d212a1bcd28a69baeda4e6390a699e78d45d66)
+    - **98/**
+      - [8c5bf5302876067c25f9721e824a4649486e51](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\98\8c5bf5302876067c25f9721e824a4649486e51)
+      - [f91a41a8bdb41d872e5743d9af321383be3390](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\98\f91a41a8bdb41d872e5743d9af321383be3390)
+    - **99/**
+      - [1282ddb524730d66d8e87cd2aab938c449e36a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\99\1282ddb524730d66d8e87cd2aab938c449e36a)
+      - [f20c7e6c258be4c1d869cd73e0a3fc3bc43590](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\99\f20c7e6c258be4c1d869cd73e0a3fc3bc43590)
+    - **9c/**
+      - [97a69a4c1db3023bbf870966ae5527948d498c](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\9c\97a69a4c1db3023bbf870966ae5527948d498c)
+    - **9e/**
+      - [833682b5e09d1f292cfd532380dfc744a8905a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\9e\833682b5e09d1f292cfd532380dfc744a8905a)
+    - **a0/**
+      - [bbc8281b12a6bce8a4120a41771f1eb6623cb5](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\a0\bbc8281b12a6bce8a4120a41771f1eb6623cb5)
+    - **a2/**
+      - [f309a33a50cbc25d6f8bc0931e6d1d5dd6481e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\a2\f309a33a50cbc25d6f8bc0931e6d1d5dd6481e)
+    - **a3/**
+      - [a1d6dd332e4cf30513334337b3c24fd71b47c5](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\a3\a1d6dd332e4cf30513334337b3c24fd71b47c5)
+    - **a4/**
+      - [0c09824038a2a59151dadc257336ab5ab39867](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\a4\0c09824038a2a59151dadc257336ab5ab39867)
+    - **a8/**
+      - [98686a91b4379647f69912e1ea54d5f0b09e48](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\a8\98686a91b4379647f69912e1ea54d5f0b09e48)
+      - [9fa9b377a4a96239b5bc32506afe6ad314b09f](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\a8\9fa9b377a4a96239b5bc32506afe6ad314b09f)
+    - **af/**
+      - [87cfa9a35bf0bc42070b5858490fb662d0db07](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\af\87cfa9a35bf0bc42070b5858490fb662d0db07)
+    - **b0/**
+      - [496acffc20e95ae07a4ea96d5cf72569d9ba46](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\b0\496acffc20e95ae07a4ea96d5cf72569d9ba46)
+      - [5cbf7a447c1609dce4d196209dc135bfa7fa1e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\b0\5cbf7a447c1609dce4d196209dc135bfa7fa1e)
+      - [bdbc7150ff2d8bb045222cbb34287757ec2c09](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\b0\bdbc7150ff2d8bb045222cbb34287757ec2c09)
+    - **b1/**
+      - [6ca9a6c1dd4fd2a23578acb50e188d68206712](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\b1\6ca9a6c1dd4fd2a23578acb50e188d68206712)
+    - **b4/**
+      - [3f2d3df6627b386b7e55011708bdd7f3fd995e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\b4\3f2d3df6627b386b7e55011708bdd7f3fd995e)
+      - [5512dd424c7f015c1b52e93355bd4d0e797db8](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\b4\5512dd424c7f015c1b52e93355bd4d0e797db8)
+    - **b5/**
+      - [93802de11b7cdcbdea886cf2e2aa532daf0073](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\b5\93802de11b7cdcbdea886cf2e2aa532daf0073)
+      - [a33515a6cb77593a2d0547aed8f52e58a75421](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\b5\a33515a6cb77593a2d0547aed8f52e58a75421)
+    - **b7/**
+      - [eb1114ade0db39459744ba49934e11e90f93bb](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\b7\eb1114ade0db39459744ba49934e11e90f93bb)
+    - **bb/**
+      - [78eeee3cb3f3681061ffa953269eccdf3ada0b](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\bb\78eeee3cb3f3681061ffa953269eccdf3ada0b)
+    - **be/**
+      - [6bd53a64b72ce857720074e3888eee8c4ca075](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\be\6bd53a64b72ce857720074e3888eee8c4ca075)
+    - **bf/**
+      - [7b66486ced07e50977df6b32efee86571b631b](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\bf\7b66486ced07e50977df6b32efee86571b631b)
+    - **c0/**
+      - [bbe73b522579d382ba723582615d7ed75cf1ec](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\c0\bbe73b522579d382ba723582615d7ed75cf1ec)
+    - **c1/**
+      - [513d3dd98344dbd9a6b875e04459beb59e2ccc](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\c1\513d3dd98344dbd9a6b875e04459beb59e2ccc)
+    - **c2/**
+      - [a04e2315ce2a591618adafd0542072805c7f5f](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\c2\a04e2315ce2a591618adafd0542072805c7f5f)
+    - **c5/**
+      - [a5d03a7b4673b98a98cf4dc9b077a8636c2242](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\c5\a5d03a7b4673b98a98cf4dc9b077a8636c2242)
+    - **c7/**
+      - [d5f8cb54027b2e47d222504182baf2716240c6](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\c7\d5f8cb54027b2e47d222504182baf2716240c6)
+    - **c8/**
+      - [d336eec9da1b749f05891fc127c0378cf42c6d](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\c8\d336eec9da1b749f05891fc127c0378cf42c6d)
+    - **ca/**
+      - [837b66d020ecef28147efa24c306c58b292553](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\ca\837b66d020ecef28147efa24c306c58b292553)
+    - **cb/**
+      - [3d99c5faaa6bb87f21f1d2132fdedaa7a8b88f](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\cb\3d99c5faaa6bb87f21f1d2132fdedaa7a8b88f)
+    - **cc/**
+      - [75ad0889f8faaf00162fa9e72f79fd521db0c2](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\cc\75ad0889f8faaf00162fa9e72f79fd521db0c2)
+    - **cd/**
+      - [8109c78b099d9f2eac44fa1e3e902723b2f236](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\cd\8109c78b099d9f2eac44fa1e3e902723b2f236)
+      - [ec7ac9727bb25de02bd17acb79fbbda47b0bd4](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\cd\ec7ac9727bb25de02bd17acb79fbbda47b0bd4)
+    - **ce/**
+      - [252d15eed65061aa0518e02ae3b419d94ba749](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\ce\252d15eed65061aa0518e02ae3b419d94ba749)
+      - [e4f0536eaf20c192e668c317aeedc32836e531](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\ce\e4f0536eaf20c192e668c317aeedc32836e531)
+    - **cf/**
+      - [8683a425db39d80c22db21aedd037849ae600c](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\cf\8683a425db39d80c22db21aedd037849ae600c)
+    - **d0/**
+      - [43717f1efda1ec9ebcd14b69727f7654cd740e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\d0\43717f1efda1ec9ebcd14b69727f7654cd740e)
+      - [ff58e26a6f04243a1a1e4e946d272a3bed9b59](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\d0\ff58e26a6f04243a1a1e4e946d272a3bed9b59)
+    - **d1/**
+      - [5ddc2a2d35337bdafdc77d9a72e084c10a4a35](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\d1\5ddc2a2d35337bdafdc77d9a72e084c10a4a35)
+      - [ed8415332c4f8b0559778c0d32f0f80badf25d](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\d1\ed8415332c4f8b0559778c0d32f0f80badf25d)
+    - **d3/**
+      - [a17c2a64fac128f1110fe59456eb08fe049569](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\d3\a17c2a64fac128f1110fe59456eb08fe049569)
+    - **d4/**
+      - [2d1f1646fcf9c98da3ce3454f644407116a792](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\d4\2d1f1646fcf9c98da3ce3454f644407116a792)
+    - **d5/**
+      - [903bd5c8634de2bb03c765695c2b56dc5e3a8d](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\d5\903bd5c8634de2bb03c765695c2b56dc5e3a8d)
+    - **d6/**
+      - [605af27072d2d5be34ec296bc2944e916c9637](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\d6\605af27072d2d5be34ec296bc2944e916c9637)
+    - **d7/**
+      - [567691facc46137379ac464f5151cc8ed7505b](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\d7\567691facc46137379ac464f5151cc8ed7505b)
+    - **d8/**
+      - [b1d54e706ab8289e6ed2ad8fd22c799c925e2c](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\d8\b1d54e706ab8289e6ed2ad8fd22c799c925e2c)
+    - **da/**
+      - [17f1f20392c5cf23a74c96ddf9f573f54f724a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\da\17f1f20392c5cf23a74c96ddf9f573f54f724a)
+      - [239042fcfeb4abbb7ffb4fd05f863417d8d633](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\da\239042fcfeb4abbb7ffb4fd05f863417d8d633)
+    - **dc/**
+      - [046175c5259135b01d9938229c91f266f4141e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\dc\046175c5259135b01d9938229c91f266f4141e)
+      - [3cf2f8e1e1d5eb6659e8ee8b65d83f1506836d](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\dc\3cf2f8e1e1d5eb6659e8ee8b65d83f1506836d)
+    - **de/**
+      - [03001d38501d8b63836735970a6b801b374683](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\de\03001d38501d8b63836735970a6b801b374683)
+      - [e4187d811fc83410a1e96da04822fc1d221552](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\de\e4187d811fc83410a1e96da04822fc1d221552)
+    - **df/**
+      - [da0bd85201484541390f36ed8cf82a990da78b](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\df\da0bd85201484541390f36ed8cf82a990da78b)
+    - **e0/**
+      - [7b9fc1aef339bf789f8c854eac8d2ea0e05b1a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e0\7b9fc1aef339bf789f8c854eac8d2ea0e05b1a)
+      - [eefa1871b426fa70cd2f58b27626e0da1c1188](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e0\eefa1871b426fa70cd2f58b27626e0da1c1188)
+    - **e2/**
+      - [3c1eed3f2a79b7a321808615bd2adc73280db7](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e2\3c1eed3f2a79b7a321808615bd2adc73280db7)
+      - [4d80ba9b6a8d02c0830052331e09e1bb2f052c](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e2\4d80ba9b6a8d02c0830052331e09e1bb2f052c)
+    - **e3/**
+      - [2de6e746e5770b9f9ce18683972fb4fe16071a](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e3\2de6e746e5770b9f9ce18683972fb4fe16071a)
+    - **e4/**
+      - [897403af83a993fe0dfd25cdb3a5844f6d379c](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e4\897403af83a993fe0dfd25cdb3a5844f6d379c)
+      - [c44f9939374075491712382f1cfc8ea6b058f7](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e4\c44f9939374075491712382f1cfc8ea6b058f7)
+    - **e5/**
+      - [20db17a8f6106ba90067b7754337a9820b7574](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e5\20db17a8f6106ba90067b7754337a9820b7574)
+      - [b174d149c4fe975f0d17dcc6cb42cf482247e3](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e5\b174d149c4fe975f0d17dcc6cb42cf482247e3)
+      - [f379a5ef7663d03df355fa7a31ff745faec45e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e5\f379a5ef7663d03df355fa7a31ff745faec45e)
+    - **e7/**
+      - [93be90cfe3d1dbd49702e3221d9bd42688f8a2](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e7\93be90cfe3d1dbd49702e3221d9bd42688f8a2)
+      - [dc0c1147025620ad14876581229d4de828f77d](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\e7\dc0c1147025620ad14876581229d4de828f77d)
+    - **ec/**
+      - [17005f8715bced272891f599abadfb39f82e3e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\ec\17005f8715bced272891f599abadfb39f82e3e)
+      - [5ddabd676a0a9c3cd992021c334d05f527cdff](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\ec\5ddabd676a0a9c3cd992021c334d05f527cdff)
+      - [6d598b272af584f803cdab06598ca93fcd78cc](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\ec\6d598b272af584f803cdab06598ca93fcd78cc)
+    - **ef/**
+      - [2978efa7b1c293e6381157dd3633a0f9a8f5ee](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\ef\2978efa7b1c293e6381157dd3633a0f9a8f5ee)
+    - **f3/**
+      - [1dc8b67b362f3dc2851680b13feba7fee58f17](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\f3\1dc8b67b362f3dc2851680b13feba7fee58f17)
+    - **f5/**
+      - [83d8a8c46fd1d7a98e3006ab5137b5dde2106e](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\f5\83d8a8c46fd1d7a98e3006ab5137b5dde2106e)
+    - **f8/**
+      - [0f69f87b2e8921392be134803bf20e4fbec964](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\f8\0f69f87b2e8921392be134803bf20e4fbec964)
+    - **fa/**
+      - [a69c0dfffd9b839f2c5e6a6d1f7c884a7a1575](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\fa\a69c0dfffd9b839f2c5e6a6d1f7c884a7a1575)
+    - **fc/**
+      - [c36cf896dde14b8caa5e0fb4ee9ba8fdc62a4f](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\fc\c36cf896dde14b8caa5e0fb4ee9ba8fdc62a4f)
+    - **fd/**
+      - [822002b5e0a4bea5bf21b99a20581d98755c67](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\fd\822002b5e0a4bea5bf21b99a20581d98755c67)
+    - **ff/**
+      - [fe6097fcd22376b1743117318bd21fb6e927ef](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\objects\ff\fe6097fcd22376b1743117318bd21fb6e927ef)
+    - **info/**
+    - **pack/**
+  - **refs/**
+    - **heads/**
+      - [main](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\refs\heads\main)
+    - **remotes/**
+      - **origin/**
+        - [main](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.git\refs\remotes\origin\main)
+    - **tags/**
+- [.gitignore](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/.gitignore)
+- **01 Python/**
+  - [01 Python Interview Questions - KirkYagami - Nikhil Sharma 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/01%20Python\01%20Python%20Interview%20Questions%20-%20KirkYagami%20-%20Nikhil%20Sharma%20👨‍💻🕵️‍♂️.pdf)
+  - [01 git Notes - Nikhil Sharma - KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/01%20Python\01%20git%20Notes%20-%20Nikhil%20Sharma%20-%20KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - [Python Coding Interview Questions - KP.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/01%20Python\Python%20Coding%20Interview%20Questions%20-%20KP.pdf)
+  - [Python Interview Questions - Nikhil Sharma  - KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/01%20Python\Python%20Interview%20Questions%20-%20Nikhil%20Sharma%20%20-%20KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+- **02 SQL/**
+  - [01.1 Constraints - KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\01.1%20Constraints%20-%20KirkYagami.pdf)
+  - [01.1 SQL Constraints - KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\01.1%20SQL%20Constraints%20-%20KirkYagami.pdf)
+  - [01.2 CASCADE -KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\01.2%20CASCADE%20-KirkYagami.pdf)
+  - [02 ACID Properties - KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\02%20ACID%20Properties%20-%20KirkYagami.pdf)
+  - [02 MySQL Data types -KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\02%20MySQL%20Data%20types%20-KirkYagami.pdf)
+  - [02.1 Char VS Varchar.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\02.1%20Char%20VS%20Varchar.pdf)
+  - [02.2 ENUMS - KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\02.2%20ENUMS%20-%20KirkYagami.pdf)
+  - [08 Referential Integrity.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\08%20Referential%20Integrity.pdf)
+  - **Datasets/**
+    - [BigBasket Products.csv](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\Datasets\BigBasket%20Products.csv)
+  - [ERD - Cardinality Kirkyagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\ERD%20-%20Cardinality%20Kirkyagami.pdf)
+  - [How+tables+and+indexes+are+stored+on+disk.pptx](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\How+tables+and+indexes+are+stored+on+disk.pptx)
+  - **Interview Questions/**
+    - [SQL Interview Questions - KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\Interview%20Questions\SQL%20Interview%20Questions%20-%20KirkYagami.pdf)
+  - [MySQL SP  Triggers -KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\MySQL%20SP%20%20Triggers%20-KirkYagami.pdf)
+  - **Practice Questions/**
+    - [SQL Queries - KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\Practice%20Questions\SQL%20Queries%20-%20KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+  - [RDBMS- Normalization -KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\RDBMS-%20Normalization%20-KirkYagami.pdf)
+  - [Superheroes - KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/02%20SQL\Superheroes%20-%20KirkYagami.pdf)
+- **03 GCP/**
+  - [01 Dataprep intro.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\01%20Dataprep%20intro.pdf)
+  - [01Cloud Storage Basics -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\01Cloud%20Storage%20Basics%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+  - [02 Running Spark Job on Dataproc -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\02%20Running%20Spark%20Job%20on%20Dataproc%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+  - [03 GCP Connections -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\03%20GCP%20Connections%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - [04 GCP Pricing and Billing -KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\04%20GCP%20Pricing%20and%20Billing%20-KirkYagami.pdf)
+  - [04 Pricing and Billing -Q&A - KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\04%20Pricing%20and%20Billing%20-Q&A%20-%20KirkYagami.pdf)
+  - [04 Shared Variables -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\04%20Shared%20Variables%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+  - [04.1 GCP Billing Account -KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\04.1%20GCP%20Billing%20Account%20-KirkYagami.pdf)
+  - **BigQuery/**
+    - [01 Dataform - KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\BigQuery\01%20Dataform%20-%20KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [02 BigQuery Arrays -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\BigQuery\02%20BigQuery%20Arrays%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - [04 Working with Arrays bq docs -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\BigQuery\04%20Working%20with%20Arrays%20bq%20docs%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - [BigQuery Routines - KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\BigQuery\BigQuery%20Routines%20-%20KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - **Datasets/**
+      - [Walmart.csv](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\BigQuery\Datasets\Walmart.csv)
+    - [O1 BQ Queries, CTE, MV - KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\BigQuery\O1%20BQ%20Queries,%20CTE,%20MV%20-%20KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+  - [Compute Engine Demo -KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\Compute%20Engine%20Demo%20-KirkYagami.pdf)
+  - **IAM/**
+    - [01 GCP Resource Hierarchy - KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\IAM\01%20GCP%20Resource%20Hierarchy%20-%20KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [02 Cloud IAM Roles - KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\IAM\02%20Cloud%20IAM%20Roles%20-%20KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [03 IAM-Roles-gcloud -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\IAM\03%20IAM-Roles-gcloud%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [04 IAM Policy -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\IAM\04%20IAM%20Policy%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [05 Service Account --KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\IAM\05%20Service%20Account%20--KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [05.1 IAM-Service Accounts -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\IAM\05.1%20IAM-Service%20Accounts%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - **NoSQL/**
+    - [01 BigTable -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\NoSQL\01%20BigTable%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - [01 Firestore - KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\NoSQL\01%20Firestore%20-%20KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [01 Memorystore for Redis -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\NoSQL\01%20Memorystore%20for%20Redis%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - [02 BigTable Demo -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\NoSQL\02%20BigTable%20Demo%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+  - **RDBMS/**
+    - [01 Cloud SQL-Demo -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/03%20GCP\RDBMS\01%20Cloud%20SQL-Demo%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+- **04 Big Data/**
+  - [01 HDFS Assignment.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\01%20HDFS%20Assignment.pdf)
+  - [01 HDFS Practice Environment -KirkYagami👨‍💻🕵️‍♂️(1).pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\01%20HDFS%20Practice%20Environment%20-KirkYagami👨‍💻🕵️‍♂️(1).pdf)
+  - [01 HDFS Practice Environment -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\01%20HDFS%20Practice%20Environment%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - [01 Hive Environment -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\01%20Hive%20Environment%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+  - [02 Hadoop Intro.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\02%20Hadoop%20Intro.pdf)
+  - [04 Yarn Architecture - KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\04%20Yarn%20Architecture%20-%20KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - [05 Big Data Life Cycle - KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\05%20Big%20Data%20Life%20Cycle%20-%20KirkYagami.pdf)
+  - [3.2 Map Reduce -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\3.2%20Map%20Reduce%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - **Delta lake/**
+    - [01 Delta Lake  - KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Delta%20lake\01%20Delta%20Lake%20%20-%20KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - [DeltaLake.html](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Delta%20lake\DeltaLake.html)
+    - [DeltaLake.ipynb](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Delta%20lake\DeltaLake.ipynb)
+  - [HDFS - KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\HDFS%20-%20KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - **Hive/**
+    - [01 Hive Theory - Basics -KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Hive\01%20Hive%20Theory%20-%20Basics%20-KirkYagami.pdf)
+    - [02 Hive Basic Commands-KirkYagami.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Hive\02%20Hive%20Basic%20Commands-KirkYagami.pdf)
+    - [03 Hive Built-in Functions - KirkYagmai.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Hive\03%20Hive%20Built-in%20Functions%20-%20KirkYagmai.pdf)
+    - [04 Hive Partitioning-KirkYagami-NikhilSharma👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Hive\04%20Hive%20Partitioning-KirkYagami-NikhilSharma👨‍💻🕵️‍♂️.pdf)
+  - **Interview Questions/**
+    - [01 Hadoop Interview Questions -Kirkyagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Interview%20Questions\01%20Hadoop%20Interview%20Questions%20-Kirkyagami%20👨‍💻🕵️‍♂️.pdf)
+    - [02 HDFS Interview Questions -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Interview%20Questions\02%20HDFS%20Interview%20Questions%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [03 Hive Interview Questions -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Interview%20Questions\03%20Hive%20Interview%20Questions%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - **Spark/**
+    - [01 Installation - Handout -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\01%20Installation%20-%20Handout%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [04 Narrow and Wide Transformation.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\04%20Narrow%20and%20Wide%20Transformation.pdf)
+    - [05 Local Vs Cluster Mode -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\05%20Local%20Vs%20Cluster%20Mode%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - **Datasets/**
+      - [disney_plus_shows.csv](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Datasets\disney_plus_shows.csv)
+    - **IPYNB_/**
+      - [Load-&-SImple-query.ipynb](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\IPYNB_\Load-&-SImple-query.ipynb)
+      - **sources/**
+        - [department_budgets.json](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\IPYNB_\sources\department_budgets.json)
+        - [yellow_tripdata_2023-01.parquet](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\IPYNB_\sources\yellow_tripdata_2023-01.parquet)
+      - [sparkDF.ipynb](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\IPYNB_\sparkDF.ipynb)
+      - [workingWithJsonData.ipynb](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\IPYNB_\workingWithJsonData.ipynb)
+    - **Spark Advanced/**
+      - [01 Executors -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20Advanced\01%20Executors%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+      - [02 Spark Caching Overview -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20Advanced\02%20Spark%20Caching%20Overview%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [03 Spark Jobs Trouble Shooting -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20Advanced\03%20Spark%20Jobs%20Trouble%20Shooting%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [04 Configure Memory Driver and Executors -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20Advanced\04%20Configure%20Memory%20Driver%20and%20Executors%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [05 Driver Class Configuration -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20Advanced\05%20Driver%20Class%20Configuration%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - [Spark Optimization -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20Optimization%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - **Spark SQL/**
+      - [01 Intro to Spark-SQL -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\01%20Intro%20to%20Spark-SQL%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [02 Intro to DataFrames -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\02%20Intro%20to%20DataFrames%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [02.1 Spark Runtime Architecture -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\02.1%20Spark%20Runtime%20Architecture%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [03 Working on DataFrames -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\03%20Working%20on%20DataFrames%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+      - [05 Selecting Renaming Adding Dropping Columns -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\05%20Selecting%20Renaming%20Adding%20Dropping%20Columns%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+      - [09 Sorting -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\09%20Sorting%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [10 Null Handling -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\10%20Null%20Handling%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [11 Joins -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\11%20Joins%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [12 Spark Caching Persistence Storage -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\12%20Spark%20Caching%20Persistence%20Storage%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [12 UDFs -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\12%20UDFs%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+      - [13 Sorting and Partioning -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\Spark%20SQL\13%20Sorting%20and%20Partioning%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - **SparkStreaming/**
+      - [02 Spark Streaming -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\SparkStreaming\02%20Spark%20Streaming%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - **sparkPlayground/**
+      - [sparkPlayground.docx](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/04%20Big%20Data\Spark\sparkPlayground\sparkPlayground.docx)
+- **05 Projects/**
+  - **P0/**
+    - **DataSets/**
+      - [DataSets.zip](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/05%20Projects\P0\DataSets\DataSets.zip)
+    - [P0_Project_RevStore.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/05%20Projects\P0\P0_Project_RevStore.pdf)
+  - **P1/**
+    - [Capstone project requirements-D and A.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/05%20Projects\P1\Capstone%20project%20requirements-D%20and%20A.pdf)
+  - **P2/**
+    - [P2 Project - D&A - Nikhil Sharma @Revtaure.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/05%20Projects\P2\P2%20Project%20-%20D&A%20-%20Nikhil%20Sharma%20@Revtaure.pdf)
+- **06 Professional Data Engineer/**
+  - [01 GCP PDE Questions.md](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\01%20GCP%20PDE%20Questions.md)
+  - [01 GCP Spanner Questions -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\01%20GCP%20Spanner%20Questions%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+  - **Beam/**
+    - [Apache Beam -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Beam\Apache%20Beam%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - **BigQuery/**
+    - [01. Big Query.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\BigQuery\01.%20Big%20Query.pdf)
+    - [07 BQ ML - KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\BigQuery\07%20BQ%20ML%20-%20KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - [BigQueryML.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\BigQuery\BigQueryML.pdf)
+  - **Dataflow/**
+    - [01 Dataflow Intro - KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Dataflow\01%20Dataflow%20Intro%20-%20KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - [Apache Beam -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Dataflow\Apache%20Beam%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [Dataflow code -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Dataflow\Dataflow%20code%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - [Exam Guide -GCP PDE -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Exam%20Guide%20-GCP%20PDE%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+  - **GCC PDE Questions/**
+    - [01 GCP PDE Questions.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\GCC%20PDE%20Questions\01%20GCP%20PDE%20Questions.pdf)
+    - [Diagnsotic Questions By Google.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\GCC%20PDE%20Questions\Diagnsotic%20Questions%20By%20Google.pdf)
+    - [Preparing_for_PDE_Module_3.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\GCC%20PDE%20Questions\Preparing_for_PDE_Module_3.pdf)
+    - [Preparing_for_PDE_Module_5.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\GCC%20PDE%20Questions\Preparing_for_PDE_Module_5.pdf)
+    - [T-GCPPDE-A-m1-l7-en-file-13.en.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\GCC%20PDE%20Questions\T-GCPPDE-A-m1-l7-en-file-13.en.pdf)
+    - [T-GCPPDE-A-m2-l6-en-file-18.en.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\GCC%20PDE%20Questions\T-GCPPDE-A-m2-l6-en-file-18.en.pdf)
+    - [T-GCPPDE-A-m4-l6-en-file-28.en.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\GCC%20PDE%20Questions\T-GCPPDE-A-m4-l6-en-file-28.en.pdf)
+    - [T-GCPPDE-A-m5-l6-en-file-33.en.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\GCC%20PDE%20Questions\T-GCPPDE-A-m5-l6-en-file-33.en.pdf)
+  - **PubSub/**
+    - [01 Cloud PubSub Interview Questions - KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\PubSub\01%20Cloud%20PubSub%20Interview%20Questions%20-%20KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - [01 KAFKA VS PubSub 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\PubSub\01%20KAFKA%20VS%20PubSub%20👨‍💻🕵️‍♂️.pdf)
+    - [01 PubSub -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\PubSub\01%20PubSub%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+    - [01 PubSub intro.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\PubSub\01%20PubSub%20intro.pdf)
+  - **Question BanK/**
+    - [01 GCP PDE 135 Questions -KirkYagami 👨‍💻🕵️‍♂️.docx](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\01%20GCP%20PDE%20135%20Questions%20-KirkYagami%20👨‍💻🕵️‍♂️.docx)
+    - [01 GCP PDE 135 Questions -KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\01%20GCP%20PDE%20135%20Questions%20-KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+    - [CertIQprofessional-data-engineer.docx](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\CertIQprofessional-data-engineer.docx)
+    - [CertIQprofessional-data-engineer.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\CertIQprofessional-data-engineer.pdf)
+    - [Your Task - Question Range.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\Your%20Task%20-%20Question%20Range.pdf)
+    - [prompt.docx](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\prompt.docx)
+    - [whizlabs_Test_01.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\whizlabs_Test_01.pdf)
+    - [whizlabs_Test_01_cleaned.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\whizlabs_Test_01_cleaned.pdf)
+    - [whizlabs_Test_02.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\whizlabs_Test_02.pdf)
+    - [whizlabs_Test_02_cleaned.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\whizlabs_Test_02_cleaned.pdf)
+    - [whizlabs_Test_03.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\whizlabs_Test_03.pdf)
+    - [whizlabs_Test_04.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\whizlabs_Test_04.pdf)
+    - [whizlabs_final_Test.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/06%20Professional%20Data%20Engineer\Question%20BanK\whizlabs_final_Test.pdf)
+- **07 Gen-AI/**
+  - [01 Prompting Techniques - KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/07%20Gen-AI\01%20Prompting%20Techniques%20-%20KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+  - [02 LLM Settings-Parameters -KirkYagami👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/07%20Gen-AI\02%20LLM%20Settings-Parameters%20-KirkYagami👨‍💻🕵️‍♂️.pdf)
+  - [03 LLMs-Code - KirkYagami 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/07%20Gen-AI\03%20LLMs-Code%20-%20KirkYagami%20👨‍💻🕵️‍♂️.pdf)
+- **O8 Interview/**
+  - [01 Python Interview Questions - KirkYagami - Nikhil Sharma 👨_💻🕵️_♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/O8%20Interview\01%20Python%20Interview%20Questions%20-%20KirkYagami%20-%20Nikhil%20Sharma%20👨_💻🕵️_♂️.pdf)
+  - [01 Spark Interview Questions -KirkYagami -Nikhil Sharma - Part 1.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/O8%20Interview\01%20Spark%20Interview%20Questions%20-KirkYagami%20-Nikhil%20Sharma%20-%20Part%201.pdf)
+  - [01 git Notes - Nikhil Sharma - KirkYagami👨_💻🕵️_♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/O8%20Interview\01%20git%20Notes%20-%20Nikhil%20Sharma%20-%20KirkYagami👨_💻🕵️_♂️.pdf)
+  - [02 DAG in Spark - KirkYagami - Nikhil Sharma 👨‍💻🕵️‍♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/O8%20Interview\02%20DAG%20in%20Spark%20-%20KirkYagami%20-%20Nikhil%20Sharma%20👨‍💻🕵️‍♂️.pdf)
+  - [Python Interview Questions - Nikhil Sharma  - KirkYagami 👨_💻🕵️_♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/O8%20Interview\Python%20Interview%20Questions%20-%20Nikhil%20Sharma%20%20-%20KirkYagami%20👨_💻🕵️_♂️.pdf)
+  - [SQL Queries for Interview -KirkYagami - Nikhil Sharma👨_💻🕵️_♂️.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/O8%20Interview\SQL%20Queries%20for%20Interview%20-KirkYagami%20-%20Nikhil%20Sharma👨_💻🕵️_♂️.pdf)
+- [README.md](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/README.md)
+- [TechM-DA.pdf](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/TechM-DA.pdf)
+- [generate_readme.py](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/generate_readme.py)
+- [👨‍💻 Commands and Links.docx](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/👨‍💻%20Commands%20and%20Links.docx)
+- [🕵️Suggested Readings - Homework👩‍💻.docx](https://github.com/1973-DEA-Nikhil/DEA-Notes-Nikhil/tree/main/🕵️Suggested%20Readings%20-%20Homework👩‍💻.docx)
